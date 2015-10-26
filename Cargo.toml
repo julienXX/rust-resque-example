@@ -1,0 +1,8 @@
+[package]
+name = "rust-resque-example"
+version = "0.1.0"
+authors = ["Julien Blanchard <julien@sideburns.eu>"]
+
+[dependencies]
+redis = "*"
+rustc-serialize = "*"
