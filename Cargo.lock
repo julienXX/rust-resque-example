@@ -2,7 +2,7 @@
 name = "rust-resque-example"
 version = "0.1.0"
 dependencies = [
- "redis 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "redis 0.5.1 (git+https://github.com/mitsuhiko/redis-rs.git?tag=0.5.1)",
  "rustc-serialize 0.3.16 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -19,7 +19,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "redis"
 version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
+source = "git+https://github.com/mitsuhiko/redis-rs.git?tag=0.5.1#50db93b10b7f8465be1414507dc57e0ee0247d09"
 dependencies = [
  "rustc-serialize 0.3.16 (registry+https://github.com/rust-lang/crates.io-index)",
  "sha1 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
