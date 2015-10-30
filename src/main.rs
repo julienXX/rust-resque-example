@@ -3,7 +3,7 @@ extern crate rustc_serialize;
 
 use redis::Commands;
 use rustc_serialize::Encodable;
-use rustc_serialize::json::{self};
+use rustc_serialize::json;
 
 
 #[derive(RustcEncodable, RustcDecodable, Debug)]
